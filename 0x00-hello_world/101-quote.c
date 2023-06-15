@@ -2,7 +2,7 @@
 # include <unistd.h>
 
 /**
- * main - prints output followed by new line to error code 
+ * main - prints output followed by new line to error code
  *
  * Return: Always 0
  */
