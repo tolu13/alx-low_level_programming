@@ -3,7 +3,7 @@
 /**
  * main - print a line of code using puts
  *
- * return 0 :Always
+ * Return: Always 0
  *
  */
 int main(void)

@@ -3,7 +3,7 @@
 /**
  * main - print a c program using printf
  *
- * Return :Always 0
+ * Return: Always 0
  */
 
 
