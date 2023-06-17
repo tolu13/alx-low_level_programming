@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all the number of base 16
+ * main - prints all possible combination of single  digit num
  *
  * Return: Always 0
  *
@@ -10,18 +10,20 @@ int main(void)
 {
 	int n;
 
-	char ch;
-
 	for (n = 48; n < 58; n++)
 
 	{
 		putchar(n);
+
+	if (n != '57')
+
+	{
+		putchar(',');
+
+		putchar(' ');
 	}
 
-	for (ch = 'a'; ch <= 'f'; ch++)
-	{
-		putchar(ch);
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0);
 }
