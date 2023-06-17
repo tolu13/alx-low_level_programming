@@ -1,5 +1,5 @@
 
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - print 3 numbers
