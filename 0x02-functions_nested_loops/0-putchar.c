@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints putchar followed by a newline
@@ -8,10 +9,15 @@
  */
 int main(void)
 {
-	int n;
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	for (n == _putchar)
-	{
-		putchar(n);
-	}
-}	return (0);
+	return (0);
+}
