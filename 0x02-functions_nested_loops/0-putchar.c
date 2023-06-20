@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - prints putchar followed by a newline
@@ -20,4 +21,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
