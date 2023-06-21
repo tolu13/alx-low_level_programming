@@ -10,35 +10,37 @@ void times_table(void)
 {
 	int i, j, y;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 10; j++)
 	{
 		for (j = 0; j < 10; j++)
 		{
 			y = j * i;
 			if (j == 0)
-			
 			{
-		 		_putchar(y + '0');
-		
-		        }
-		}	
-			if ( y < 10 && j != 0)
+				_putchar(y  + '0')
+			}
+			else if (y < 10 && j != 0
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(y + '0');
 			}
-			else if ( y >= 10)
+			else if (y >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar((y / 10) + '0');
-				_putchar(( y % 10) + '0');
+				_putchar((y % 10);
+
 			}
-		
+
+		}
+
 	}
-	_putchar('\n');	
-		
-		
+	_putchar('\n');
+
+
+
+
 }

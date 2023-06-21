@@ -1,55 +1,45 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * print_times_table - print the n times table
- * @n: number of tge times table
- *
- * Return: Always 0
- *
+ * print_times_table - prints the n times table, starting with 0
+ * @n: number of the times table
  */
- 
 void print_times_table(int n)
 {
-	int i, j, k;
-	
-	if ( >= 0 && n <= 15)
+	int i, j, y;
+
+	if (n >= 0 && n <= 15)
 	{
-		for ( i = 0; i <= n; i++)
+		for (i = 0; i <= n; i++)
 		{
-			for ( j = 0; j <= n; j++)
+			for (j = 0; j <= n; j++)
 			{
-				k = j * i;
+				y = j * i;
 				if (j == 0)
 				{
-					_putchar( k + '0')
-				}
-
-				else if (k < 10 && k != 0)
-				{
-					putchar(',');
-					_putchar(' ');
-					_putchar( ' ');
-					_putchar(' ');
-					_putchar (k + '0');
-				}
-				else if (k >= 10 && k < 100)
+					_putchar(y + '0');
+				} else if (y < 10 && j != 0)
 				{
 					_putchar(',');
 					_putchar(' ');
-
-					_putchar( ' ');
-					_putchar((k / 10) + '0');
-					_putchar((k % 10) + '0');
-				}
-				else if (k >= 100)
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(y + '0');
+				} else if (y >= 10 && y < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar((k / 10) + '0');
-				       _putchar(( k / 10) %10) + '0');
-			       		_putchad((k % 10) + '0');
-			 	}
-
+					_putchar(' ');
+					_putchar((y / 10) + '0');
+					_putchar((y % 10) + '0');
+				} else if (y >= 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((y / 100) + '0');
+					_putchar(((y / 10) % 10) + '0');
+					_putchar((y % 10) + '0')
+				}
 			}
 			_putchar('\n');
 		}
