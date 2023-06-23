@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks if its a number or letter
- *@c: character to be checked 
+ *@c: character to be checked
  * Return: 1 if its a numberband 0 fot otherwis
  */
 int _isdigit(int c)
