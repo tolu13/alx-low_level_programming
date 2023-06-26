@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - prints the character of a string
+ * puts2 - prints the character of a string
  * @str: strings inputed
  * Return: 0
  */
