@@ -9,7 +9,7 @@ int main(void)
 {
 
 	int s = 0, c = 0;
-	time_t;
+	time_t t;
 
 	srand((unsigned int) time (&t));
 	while (c < 2772)
