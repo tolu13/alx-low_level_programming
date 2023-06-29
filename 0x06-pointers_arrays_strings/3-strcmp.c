@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 		s2++;
 
 	}
-	return (unsigned s1 - unsigned s2);
+	return (*(unsigned char *)s1 - *(unsigned char *)s2);
 
 }
 
