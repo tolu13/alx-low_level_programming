@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strstr - a function that locates a substring
- * @haystack: string
- * @needle: substring
+ * @haystack: input string to search for matching substring
+ * @needle: substring to search for
  * Return: to beginning of local substring
  */
 char *_strstr(char *haystack, char *needle)
@@ -13,6 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		 h = haystack;
 		 n = needle;
+
 		while (*n != '\0' && *haystack == *n)
 		{
 			haystack++;
