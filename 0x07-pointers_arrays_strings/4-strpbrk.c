@@ -3,7 +3,7 @@
  * _strpbrk - function that searches a string for any of a set of bytes
  * @s: string s
  * @accept: string accept
- *Return: pointer to byte s
+ * Return: pointer to byte s
  */
 char *_strpbrk(char *s, char *accept)
 {
