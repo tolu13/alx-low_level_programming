@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * _strspn - function that calculates the length of the initial segment of s which consists of characters in accept
+ * _strspn - function that calculates the
+ * length of the initial segment of s
+ * which consists of characters in accept
  * @s: pointer to string
  * @accept: substring prefix to look for
  * Return: number of bytes in initial segment
