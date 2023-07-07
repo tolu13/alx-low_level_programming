@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main -  prints filename followed by a new line
- * @Argc: counts the number of command line arguement
- * @Argv: is the array that contains the command line arguement
+ * @argc: counts the number of command line arguement
+ * @argv: is the array that contains the command line arguement
  * Return: 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
