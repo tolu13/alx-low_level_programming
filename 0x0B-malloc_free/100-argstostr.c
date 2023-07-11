@@ -15,7 +15,7 @@ char *argstostr(int ac, char **av)
 	if (ac == 0)
 		return (NULL);
 
-	for (r = 0; r < ac; r++)
+	for (r = s  = 0; r < ac; r++)
 	{
 		if (av[s] == NULL)
 			return (NULL);
