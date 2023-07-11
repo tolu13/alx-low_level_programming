@@ -38,9 +38,10 @@ char *argstostr(int ac, char **av)
 		s++;
 		u++;
 		t = 0;
-	}
-	if (u < r - 1)
-		f[u] = av[s][t];
 
+		if (u < r - 1)
+			f[u] = av[s][t];
+	}
+	f[u] = '\0';
 	return (f);
 }
