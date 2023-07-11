@@ -22,7 +22,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-
 	for (a = 0; s1[a] != '\0'; a++)
 	{
 		count1 = count1 + 1;
@@ -48,6 +47,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	d[c] = '\0';
 	return (d);
-
-
 }
