@@ -43,5 +43,6 @@ char *argstostr(int ac, char **av)
 			f[u] = av[s][t];
 	}
 	f[u] = '\0';
+
 	return (f);
 }
