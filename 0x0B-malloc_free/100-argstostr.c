@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <Stdlib.h>
+#include <stdlib.h>
 /**
  * argstostr - function that concatenates all program
  * @ac: arguement count
