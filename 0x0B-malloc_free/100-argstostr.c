@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 		free(f);
 		return (NULL);
 	}
-	for (s = t = u = 0; u < r s++, u++)
+	for (s = t = u = 0; u < r s++;  u++)
 	{
 		f[u] = '\n';
 		s++;
