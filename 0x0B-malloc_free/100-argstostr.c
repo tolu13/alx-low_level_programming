@@ -37,7 +37,7 @@ char *argstostr(int ac, char **av)
 	
 	for (s = t = u = 0; u < r; s++,  u++)
 	{
-		if (av[s][t] == '\n';
+		if (av[s][t] == '\n');
 		{		
 		f[u] = '\n';
 		s++;
