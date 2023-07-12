@@ -20,13 +20,13 @@ char *argstostr(int ac, char **av)
 		if (av[s] == NULL)
 			return (NULL);
 
-	
+
 		for (t = 0; av[s][t] != '\0'; t++)
 			r++;
 		r++;
 
 	}
-	
+
 	f = malloc((r + 1) * sizeof(char));
 
 	if (f == NULL)
@@ -34,11 +34,11 @@ char *argstostr(int ac, char **av)
 		free(f);
 		return (NULL);
 	}
-	
-	for (s = t = u = 0; u < r; s++,  u++)
+
+	for (s = t = u = 0; u < r; t++,  u++)
 	{
 		if (av[s][t] == '\n')
-		{		
+		{
 		f[u] = '\n';
 		s++;
 		u++;
