@@ -39,16 +39,14 @@ char *argstostr(int ac, char **av)
 	{
 		if (av[s][t] == '\n')
 		{
-		f[u] = '\n';
-		s++;
-		u++;
-		t = 0;
+			f[u] = '\n';
+			s++;
+			u++;
+			t = 0;
 		}
 		if (u < r - 1)
 			f[u] = av[s][t];
 	}
-
 	f[u] = '\0';
-
 	return (f);
 }
