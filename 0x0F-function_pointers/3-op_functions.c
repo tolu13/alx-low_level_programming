@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * op_add - returns sum of a and b
  * @a: first input
