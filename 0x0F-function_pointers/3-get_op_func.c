@@ -4,7 +4,7 @@
  * get_op_func - get ops function pointer of type charr array
  * that accepst two input of int data type
  * @s: a character pointer
- * Return: pne of op functions
+ * Return: one of op functions
  */
 int (*get_op_func(char *s))(int, int)
 {

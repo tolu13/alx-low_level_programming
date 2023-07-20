@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+#include "function_pointers.h"
 /**
  *  main - entry
  * Description: takes 4 arguements 2 are integes and 1 operator

@@ -1,3 +1,4 @@
+#include "3-calc.h"
 /**
  * op_add - returns sum of a and b
  * @a: first input
@@ -35,7 +36,7 @@ int op_mul(int a, int b)
  * op_div - divides a / b
  * @a: first input
  * @b: second input
- * Return: result of the divisiom of a and b
+ * Return: result of the division of a and b
  */
 int op_div(int a, int b)
 {
