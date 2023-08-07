@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * read_textfile - function that reads a text-file and prints it to 
+ * read_textfile - function that reads a text-file and prints it to
  * the posix standard output
  * @filename: filename
+ * @letters: letters to be read
  * Return: numbers it could read and print
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -14,7 +15,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	buf = malloc(sizeof(char) *letters);
+	buf = malloc(sizeof(char) * letters);
 	if (buf == NULL)
 		return (0);
 
