@@ -152,6 +152,7 @@ void print_magic(char *ptr)
 	printf("\n");
 
 }
+
 /**
  * check_sys - check the version system.
  * @ptr: magic.
@@ -179,6 +180,7 @@ void check_sys(char *ptr)
 	print_type(ptr);
 	print_addr(ptr);
 }
+
 /**
  * check_elf - check if it is an elf file.
  * @ptr: magic.
@@ -196,6 +198,7 @@ int check_elf(char *ptr)
 
 	return (0);
 }
+
 /**
  * main - check the code for Holberton School students.
  * @argc: number of arguments.
