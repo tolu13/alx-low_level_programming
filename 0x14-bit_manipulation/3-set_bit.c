@@ -6,14 +6,14 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-        unsigned long int t = 1;
+	unsigned long int t = 1;
 
-        if (index > (sizeof(unsigned long int) * 8))
-                return (-1);
+	if (index > (sizeof(unsigned long int) * 8))
+		return (-1);
 
-        t <<= index;/*shift the value in set left by 1 bit.*/
-        /*t <<= index is the same as t = t << index*/
+	t <<= index;/*shift the value in set left by 1 bit.*/
+	/*t <<= index is the same as t = t << index*/
 
-        *n = *n | t;/*bitwise OR operator*/
-        return (1);
+	*n = *n | t;/*bitwise OR operator*/
+	return (1);
 }

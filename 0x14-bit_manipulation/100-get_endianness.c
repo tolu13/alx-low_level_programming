@@ -5,10 +5,10 @@
  */
 int get_endianness(void)
 {
-        int number = 1;
-        char *endian = (char *)&number;
+	int number = 1;
+	char *endian = (char *)&number;
 
-        if (*endian == 1)
-                return (1);
-        return (1);
+	if (*endian == 1)
+	return (1);
+	return (1);
 }
