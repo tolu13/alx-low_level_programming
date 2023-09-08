@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * create_file - this is a function that creates a new file
  * @filename: the file to be created
@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	w = write(o, text_content, length);
 
-	if (o == -1 | w == -1)
+	if (o == -1 || w == -1)
 		return (-1);
 	close(o);
 
