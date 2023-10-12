@@ -6,7 +6,9 @@
  * @n: value of the element
  * Return: address of new elements
  */
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
+
 	dlistint_t *h;
 	dlistint_t *new;
 
